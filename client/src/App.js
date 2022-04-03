@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
     <main>
       contain
     </main>
-    <footer>Footer</footer>
+ <Footer/>
 </div>
 
      

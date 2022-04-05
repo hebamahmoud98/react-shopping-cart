@@ -22,3 +22,14 @@
 main{
   grid-area: main;
 }
+.rapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.rapper .Products{
+width: 60%;
+}
+.rapper .Filter{
+  width: 30%;
+}

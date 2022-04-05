@@ -2,7 +2,7 @@
     {
         "id":"id1",
         "title":"Product1",
-        "imageUrl":"../public/image/images.jpg",
+        "imageUrl":"/images/laptop.png",
         "desc":"This is Product1",
         "price":70,
         "sizes":["s","xxl"]
@@ -10,25 +10,25 @@
     {
         "id":"id2",
         "title":"Product2",
-        "imageUrl":"../public/image/ipad.jpg",
+        "imageUrl":"/images/ipad.jpg",
         "desc":"This is Product2",
-        "price":70,
+        "price":80,
         "sizes":["m","xl"]
     },
     {
         "id":"id3",
         "title":"Product3",
-        "imageUrl":"../public/image/laptop.png",
+        "imageUrl":"/images/img.jpg",
         "desc":"This is Product3",
-        "price":70,
+        "price":30,
         "sizes":["s","l"]
     },
     {
         "id":"id4",
         "title":"Product4",
-        "imageUrl":"../public/image/tablet.jpg",
+        "imageUrl":"/images/tablet.jpg",
         "desc":"This is Product4",
-        "price":70,
+        "price":100,
         "sizes":["s","xl"]
     }
 ]

@@ -10,6 +10,8 @@
     "gulp-sass": "^5.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-modal": "^3.14.4",
+    "react-model": "^4.2.1",
     "react-scripts": "5.0.0",
     "sass": "^1.49.11",
     "web-vitals": "^2.1.4"

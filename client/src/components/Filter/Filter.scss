@@ -1,0 +1,33 @@
+.filter-wrapper{
+    background-color: #fff;
+    border: 1px solid #c0c0c0;
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+
+    .filter-title {
+        background-color: rgb(41, 49, 46);
+        padding: 10px;
+         color:#fff;
+        margin-bottom: 20px;
+    }
+    >div{
+        padding: 5px 20px ;
+      
+    }
+
+
+select {
+  display: block;
+  height: 30px;
+  border: 1px solid #ddd;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px
+}
+
+}
+

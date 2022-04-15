@@ -29,6 +29,6 @@
         "imageUrl":"/images/tablet.jpg",
         "desc":"This is Product4",
         "price":100,
-        "sizes":["s","xl"]
+        "sizes":["all"]
     }
 ]

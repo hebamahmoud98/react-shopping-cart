@@ -5,7 +5,7 @@
         "imageUrl":"/images/laptop.png",
         "desc":"This is Product1",
         "price":70,
-        "sizes":["s","xxl"]
+        "sizes":["S","M"]
     },
     {
         "id":"id2",
@@ -13,7 +13,7 @@
         "imageUrl":"/images/ipad.jpg",
         "desc":"This is Product2",
         "price":80,
-        "sizes":["m","xl"]
+        "sizes":["L","XL"]
     },
     {
         "id":"id3",
@@ -21,7 +21,7 @@
         "imageUrl":"/images/img.jpg",
         "desc":"This is Product3",
         "price":30,
-        "sizes":["s","l"]
+        "sizes":["S","XL"]
     },
     {
         "id":"id4",
@@ -29,6 +29,6 @@
         "imageUrl":"/images/tablet.jpg",
         "desc":"This is Product4",
         "price":100,
-        "sizes":["all"]
+        "sizes":["XL","XXL"]
     }
 ]

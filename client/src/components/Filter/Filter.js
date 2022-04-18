@@ -7,20 +7,20 @@ import "../../css/Filter/Filter.css"
         <div className='numof-products '>num</div>
         <div className='filter-by-size '>
             <span>Filter</span>
-            <select className='filter-select'>
-                    <option value="all">All</option>
-                    <option value="s">S</option>
-                    <option value="m">M</option>
-                    <option value="l">L</option>
-                    <option value="xl">XL</option>
-                    <option value="xxl">XXL</option>
+            <select value={props.size} className='filter-select' onChange={props.handleFilterbysize}>
+                    <option value="All">All</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
             </select>
         </div>
         <div className='filter-by-size '>
             <span>Order</span>
-            <select className='filter-select'>
+            <select className='filter-select' value={props.sort} onChange={props.handleFilterbysort}>
                     <option value="lastest">Lastest</option>
-                    <option value="lowter">Lowter</option>
+                    <option value="lowest">Lowest</option>
                     <option value="highest">Highest</option>
                     
             </select>

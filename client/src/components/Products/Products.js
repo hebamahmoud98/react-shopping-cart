@@ -19,7 +19,7 @@ function Products(props) {
             <p>{product.title}</p>
             <span>{product.price}$</span>
           </div>
-          <button>Add to cart</button>
+          <button onClick={()=>props.addToCard(product)}>Add to cart</button>
         </div>
       ))}
       <Modal  isOpen={product} onRequestClose={colseModal}>

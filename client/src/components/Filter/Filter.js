@@ -4,7 +4,7 @@ import "../../css/Filter/Filter.css"
   return (
     <div className='filter-wrapper'>
         <h2 className='filter-title'>  Filter</h2>
-        <div className='numof-products '>num</div>
+        <div className='numof-products '>number of Products {props.productNumber}</div>
         <div className='filter-by-size '>
             <span>Filter</span>
             <select value={props.size} className='filter-select' onChange={props.handleFilterbysize}>
